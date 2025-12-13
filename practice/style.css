@@ -1,0 +1,15 @@
+#box{
+    background-color: #0000ff;
+}
+
+.heading{
+    color: red;
+}
+
+button{
+    background-color: green;
+}
+#heading{
+    text-align: center;
+    text-transform: capitalize;
+}
