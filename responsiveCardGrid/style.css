@@ -1,0 +1,35 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.box {
+    width: 100vw;
+    display: flex;
+    justify-content: flex-start;
+    padding: 30px;
+    gap: 70px;
+    flex-wrap: wrap;
+    background-color: #5F00BA;
+    
+}
+
+.cards {
+    border: 5px solid #FFF2F1;
+    border-radius: 10px;
+    height: 260px;
+    width: 400px;
+}
+
+h1 {
+    text-align: center;
+    background-color: #B0FF92;
+}
+
+p {
+    margin: 30px 5px;
+    color: #FFF2F1;
+    font-family: sans-serif;
+    font-weight: 600;
+}
