@@ -1,0 +1,384 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.navbar {
+    background-color: #171a21;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.nav-logo {
+    display: flex;
+}
+
+.logo {
+    background-image: url('logo.png');
+    background-size: cover;
+    height: 90px;
+    width: 240px;
+    filter: opacity(0.7) drop-shadow(0 0 0 white);
+}
+
+/* Navigation links */
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+}
+
+.links {
+    font-family: "Motiva Sans", "Twemoji", "Noto Sans", "Helvetica", "sans-serif";
+    font-weight: 500;
+}
+
+.links a {
+    color: rgba(255, 255, 255, 0.884);
+    text-decoration: none;
+    padding: 45px 7px 7px;
+}
+
+/* right-side */
+
+.nav-links-right {
+    display: flex;
+    width: 350px;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+/* Steam installation button  */
+
+.install-steam-link {
+    display: flex;
+    align-items: center;
+    background-color: rgba(103, 112, 123, 0.5);
+    font-family: "Motiva Sans", Helvetica, sans-serif;
+    justify-content: center;
+    padding: 6px;
+}
+
+.install-steam-link a {
+    text-decoration: none;
+    color: #e5e4dc;
+    font-size: 15px;
+}
+
+/* nofication bell */
+
+.notification-bell {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(103, 112, 123, 0.5);
+    padding: 8px 15px 8px 15px;
+}
+
+.notification-bell i {
+    color: #e5e4dc;
+    font-size: 13px;
+}
+
+/* profile image */
+
+.profile-name {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: rgba(103, 112, 123, 0.5);
+    padding: 7.5px;
+}
+
+.profile-name p {
+    color: #e5e4dc;
+    font-size: 12px;
+    font-family: "Motiva Sans", Helvetica, sans-serif;
+}
+
+.profile-picture {
+    display: flex;
+    border: 2px solid gray;
+}
+
+.profile-image {
+    background-image: url('profile.png');
+    background-size: cover;
+    height: 43px;
+    width: 46px;
+}
+
+/* search-bar */
+
+.nav-search {
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.search-input {
+    width: 300px;
+    background: #ffffff20;
+    font-style: italic;
+    border: 1px solid #ffffff20;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.search-input:hover {
+    border-color: rgba(0, 0, 255, 0.386);
+}
+
+.search-icon {
+    width: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #1a9fff;
+    border-bottom-right-radius: 2px;
+    border-top-right-radius: 2px;
+    padding: 3px 7px 3px 7px;
+}
+
+.search-icon i {
+    font-size: 20px;
+    color: #fff;
+}
+
+/* hero-section */
+
+.hero-section {
+    background-image: url('hero_section.png');
+    background-size: cover;
+    height: 600px;
+    display: flex
+}
+
+.hero-promo {
+    display: flex;
+    align-items: flex-start;
+    width: 350px;
+    margin: 15px 0px 0px 15px;
+    flex-direction: column;
+}
+
+.title {
+    color: #5c2323;
+    font-size: 35px;
+    text-decoration: underline;
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+.info {
+    padding-top: 10px;
+    color: #7b1f1f;
+    font-size: 17px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-weight: 400;
+}
+
+.hero-button {
+    padding-top: 18px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.hero-button button {
+    color: #fff;
+    background-color: #15ff0097;
+    font-size: 25px;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-family: "Bebas Neue", sans-serif;
+    transition: transform 0.5s ease;
+}
+
+.hero-button button:hover {
+    transform: scale(1.1);
+}
+
+/* Features Section */
+
+.feature-section {
+    display: block;
+    background-color: #06142fcf;
+}
+
+.feature-title {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    font-family: "Motiva Sans", Sans-serif;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 12px 13px 15px;
+}
+
+.deals {
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.cards {
+    height: 300px;
+    width: 450px;
+    transition: transform 0.4s ease;
+}
+
+.cards img {
+    height: 300px;
+    width: 450px;
+    display: block;
+}
+
+.cards:hover {
+    cursor: pointer;
+    transform: scale(1.03);
+    z-index: 3;
+    box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+}
+
+.price {
+    display: flex;
+    justify-content: flex-end;
+    font-family: "Motiva Sans", Sans-serif;
+}
+
+.discount {
+    font-size: 18px;
+    padding: 2px 6px;
+    font-weight: bold;
+    background-color: #A1CD44;
+    border-top-left-radius: 2px;
+    border-bottom-left-radius: 2px;
+}
+
+.discount-currency {
+    display: flex;
+    align-items: center;
+    padding: 3px;
+    background-color: #06142fcf;
+    gap: 5px;
+}
+
+.off {
+    color: #848e94;
+    text-decoration-line: line-through;
+    font-size: 11px;
+}
+
+.discount-price {
+    color: #ffffff;
+    font-size: 17px;
+}
+
+/* Footer */
+
+.footer-spacebar {
+    padding-top: 40px;
+    background-color: #06142fcf;
+}
+
+.footer-content {
+    display: flex;
+    align-items: center;
+    background-color: #06142fcf;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+.footer-text {
+    color: #8F98A0;
+}
+
+@media (max-width : 600px) {
+    .navbar {
+        flex-direction: column;
+        align-items: stretch;
+    }
+
+    .nav-links {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .links a {
+        display: block;
+        padding: 12px;
+        text-align: center;
+        border-top: 1px solid #848e94;
+    }
+
+    .nav-links-right {
+        display: none;
+    }
+
+    .hero-section {
+        height: 400px;
+    }
+
+    .hero-promo {
+        margin: 3px;
+    }
+
+    .title {
+        font-size: 22px;
+    }
+
+    .info {
+        font-size: 11px;
+    }
+
+    .hero-button button{
+        font-size: 14px;
+        margin-left: 4px;
+        transition: transform 0.3s ease;
+    }
+
+    .hero-button button:active {
+        transform: scale(1.1);
+    }
+
+    .deals {
+        flex-direction: column;
+    }
+    
+    .cards {
+        position: relative;
+        transition: transform 0.3s ease , z-index 0.3s ease;
+    }
+
+    .cards:active {
+        z-index: 3;
+        transform: scale(1.03);
+        box-shadow: 0 10px 30px rgba(0,0,0,0.4);
+    }
+
+    .footer-text {
+        font-size: 13px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
